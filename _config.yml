@@ -230,7 +230,7 @@ defaults:
   # _patents
   - scope:
       path: ""
-      type: patent
+      type: patents
     values:
       layout: single
       author_profile: true
