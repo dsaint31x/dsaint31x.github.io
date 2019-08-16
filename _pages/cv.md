@@ -11,30 +11,53 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* **2011.8.26** Ph.D. in Department of Medical Science, Gachon University, Korea
+  * Thesis title : Implementation of the First Brain Dedicated UHF PET-MRI Fusion Imaging System and Its Applications
+  * Advisor : Zang-Hee Cho
+* **2008.2.1** M.S. in Department of Medical Science, Gachon University, Korea
+  * Thesis title : New Real-Time Reconstruction System for Positron Emission Tomography (PET) Study
+  * Advisor : Zang-Hee Cho
+* **2001.2.16** B.E. in Department of Telecommunication & Information Engineering, Korea Aerospace University, Korea
 
-Work experience
+Research experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2014 - Current
+  * Assistant Professor 
+    * Department of Biomedical Engineering, College of Health Sciences 
+    * Gachon University, Korea
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2016 - 2017
+  * Adjunct Assistant Professor
+    * Medical Device R&D Center, Medical Device Convergence Center
+    * Gil Hospital, Korea
+
+* 2011 - 2013
+  * Researcher (Post Doc.)
+    * Neuroscience Research Institute
+    * Gachon University, Korea
+
+* 2005 - 2011
+  * Researcher 
+    * Neuroscience Research Institute
+    * Gachon University, Korea
+
   
-Skills
+Research experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2016 - Current
+  *  Chair of Computing & Information Center
+    * Gachon University, Korea
+
+* 2002 - 2004
+  * Senior Researcher 
+    * Research and Development Team
+    *  Nextware Corp., Korea
+
+* 2002 - 2004
+  * Researcher 
+    * Research and Development Team
+    *  Nextware Corp., Korea
+
 
 Publications
 ======
@@ -54,6 +77,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

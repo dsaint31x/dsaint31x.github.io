@@ -85,7 +85,7 @@ author:
   bio              : "Assistant Professor<br/>Biomedical Engineering<br/>Gachon Univ.<br/>"
   location         : "Incheon"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=hangkeun+kim"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Hang-Keun+Kim"
   googlescholar    : "https://scholar.google.co.kr/citations?user=X85y2U4AAAAJ&hl=ko&authuser=1"
   email            : "dsaint31@bme.gachon.ac.kr"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -181,7 +181,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  patents:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -227,10 +227,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _patents
   - scope:
       path: ""
-      type: portfolio
+      type: patent
     values:
       layout: single
       author_profile: true
