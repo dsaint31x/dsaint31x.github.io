@@ -11,4 +11,18 @@ nav:
   - samples:
     - sample Page A: sample-a.md
 
+markdown_extensions:
+  - toc:
+      permalink: '#'
 
+plugins:
+  - search
+
+extra:
+  history_buttons: false
+  version: v1.3.0
+  nav_links:
+    - icon: twitter
+      icon_type: brand
+      text: Siphalor
+      url: https://twitter.com/Siphalor
