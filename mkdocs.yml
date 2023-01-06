@@ -1,0 +1,5 @@
+#site_name: My Docs
+site_name: custommill
+
+docs_dir: mkdocs
+site_dir: docs
