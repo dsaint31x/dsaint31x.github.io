@@ -11,7 +11,7 @@ nav:
     - sample Page A: sample-a.md
 
 theme: 
-  #name: 'readthedocs'
-  name: 'custommill'
+  name: 'readthedocs'
+  Ename: 'custommill'
   custom_dir: 'custom_theme/'
 
