@@ -9,20 +9,20 @@
       
       
       
+        <link rel="prev" href="..">
       
-        <link rel="next" href="kernel/">
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.2">
     
     
 <title>Custom title goes here</title>
 
     
-      <link rel="stylesheet" href="assets/stylesheets/main.f56500e0.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.f56500e0.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.2505c338.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
       
       
 
@@ -38,7 +38,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#kernel" class="md-skip">
           Skip to content
         </a>
       
@@ -80,7 +80,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href=".." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              index
+              Kernel
             
           </span>
         </div>
@@ -166,7 +166,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href=".." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -183,59 +183,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          index
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         index
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -246,12 +198,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -272,11 +226,21 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="kernel/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Kernel
       </a>
+      
     </li>
   
 
@@ -308,28 +272,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -344,21 +286,77 @@
 
 
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+<h1 id="kernel">Kernel</h1>
+<p>운영체제 중 항상 메모리에 올라가 있는 <strong>운영체제의 핵심 부분</strong></p>
+<p>하드웨어와 User program (or application) 사이에서 User program (or application) 수행에 필요한 여러 서비스를 제공하기 위한 <strong>인터페이스를 제공</strong></p>
+<p><strong>컴퓨터 H/W (CPU, Memory)의 resource(자원)들을 관리</strong></p>
+<h1 id="hw-resource-interface">컴퓨터 H/W resource에 대한 interface 제공.</h1>
+<p>Kernel은 User program과 H/W resource 사이에서 이들을 연결해주는 역할을 수행함.</p>
+<p>User program은 system call을 통해 kernel에 필요한 H/W resource의 사용을 요청하며, Kernel은 이를 받아 해당 H/W resource에게 해당하는 명령을 전달하여 작업을 수행하고, 그 결과를 user program에 반환해줌.</p>
+<blockquote>
+<p>User program은 Kernel이 제공하는 system call interface을 통해 computer의 physical resource를 사용하게 됨.</p>
+</blockquote>
+<h1 id="hw-resource-management">H/W Resource Management</h1>
+<p>Kernel은 컴퓨터 HW의 physical resource를 관리하며, 이들의 abstraction(or virtualization)인 virtual resource를 생성 및 관리함.</p>
+<p>virtual resource는 physical resource를 abstraction(추상화)한 것으로 각각의 User program들에서는 해당 virtual resource가 보이며, 이를 통해 user program들은 현재 자신이 특정 HW를 혼자서 쓰는 것처럼 느끼게 됨.</p>
+<table>
+<thead>
+<tr>
+<th>Physical H/W</th>
+<th>Virtual H/W</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPU</td>
+<td>Task or Processor</td>
+</tr>
+<tr>
+<td>Memory (or RAM)</td>
+<td>Page or Segment</td>
+</tr>
+<tr>
+<td>Disk (or HDD, SDD)</td>
+<td>File</td>
+</tr>
+<tr>
+<td>Network</td>
+<td>Socket</td>
+</tr>
+</tbody>
+</table>
+<p>Kernel이 수행하는 H/W resource관리는 다음으로 구성됨.</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Task(Process) Management : Physical resource인 CPU를 추상적 자원인 Task (or Processor)로 제공</li>
+<li>Memory Management : Physical resource인 메모리를 추상적 자원인 Page (or Segement)로 제공</li>
+<li>File System : Physical resource인 디스크를 추상적 자원인 File로 제공</li>
+<li>Network Management : Physical resource인 네트워크 장치를 추상적 자원인 Socket으로 제공</li>
+<li>Device Driver Management : 기타 외부 Device들 (Peripheral devices)과 user program 사이에서 중재자/인터프리터 로서 동작하면서 해당 Device들의 driver들을 관리함.</li>
+<li>Interrupt Handling : 인터럽트 핸들러</li>
+<li>I/O Communication : 입출력 통신 관리</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3232161401562757"
+     crossorigin="anonymous"></script>
+<p><ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-3232161401562757"
+     data-ad-slot="5759309749"></ins></p>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h1 id="os">OS에서의 역할.</h1>
+<ul>
+<li>OS는 kernel에 system program (shell 및 여러 s/w)들이 더해져서 구성된다.</li>
+<li>추가되는 system program들은 file system utility, windowing systems 등등으로 User 또는 User program들이 컴퓨터를 보다 편리하게 사용할 수 있도록 해줌.</li>
+<li>사실 kernel은 컴퓨터 사용자와 직접적으로 interaction은 하지 않고, shell이 중간에 위치하여 이를 담당함.</li>
+</ul>
+<blockquote>
+<p>kernel은 shell을 통하거나 다른 User program (or Application)을 통해 사용자와 interaction을 수행함.
+</p>
+</blockquote>
 
 
 
@@ -396,10 +394,10 @@ docs/
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.12658920.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.12658920.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.5cf534bf.min.js"></script>
+      <script src="../assets/javascripts/bundle.5cf534bf.min.js"></script>
       
     
   </body>
