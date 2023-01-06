@@ -6,7 +6,7 @@ docs_dir: mkdocs
 site_dir: docs
 
 nav:
-  - index: index.md
+  - index: usage.md
   - samples:
     - sample Page A: sample-a.md
 
