@@ -1,5 +1,11 @@
-#site_name: My Docs
-site_name: custommill
+site_name: My Docs
+theme: 
+  name: custommill
+  custom_dir: custom_theme/
 
 docs_dir: mkdocs
 site_dir: docs
+
+
+
+
