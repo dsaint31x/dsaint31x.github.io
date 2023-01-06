@@ -11,7 +11,34 @@ nav:
     - sample Page A: sample-a.md
 
 theme: 
-  name: 'readthedocs'
-  Ename: 'custommill'
+  #name: 'readthedocs'
+  name: 'custommill'
   custom_dir: 'custom_theme/'
+markdown_extensions:
+  - admonition
+  - pymdownx.tabbed
+  - toc:
+      permalink: '#'
 
+plugins:
+  - search
+  - exclude:
+      glob:
+        - bootstrap/*
+        - "*.scss"
+      include-glob:
+        - bootstrap/dist/js/bootstrap.js
+        - bootstrap/dist/js/bootstrap.min.js        # For debugging
+        - bootstrap/dist/js/bootstrap.min.js.map    # For debugging
+        - bootstrap/dist/css/bootstrap.css
+        - bootstrap/dist/css/bootstrap.min.css      # For debugging
+        - bootstrap/dist/css/bootstrap.min.css.map  # For debugging
+
+extra:
+  history_buttons: false
+  version: v1.3.0
+  nav_links:
+    - icon: twitter
+      icon_type: brand
+      text: Siphalor
+      url: https://twitter.com/Siphalor
