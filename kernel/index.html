@@ -234,12 +234,60 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
-        
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Kernel
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Kernel
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#kernel" class="md-nav__link">
+    Kernel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hw-resource-interface" class="md-nav__link">
+    컴퓨터 H/W resource에 대한 interface 제공.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hw-resource-management" class="md-nav__link">
+    H/W Resource Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#os" class="md-nav__link">
+    OS에서의 역할.
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -269,8 +317,42 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#kernel" class="md-nav__link">
+    Kernel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hw-resource-interface" class="md-nav__link">
+    컴퓨터 H/W resource에 대한 interface 제공.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hw-resource-management" class="md-nav__link">
+    H/W Resource Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#os" class="md-nav__link">
+    OS에서의 역할.
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -286,17 +368,19 @@
 
 
 
-<h1 id="kernel">Kernel</h1>
+  <h1>Kernel</h1>
+
+<h2 id="kernel">Kernel</h2>
 <p>운영체제 중 항상 메모리에 올라가 있는 <strong>운영체제의 핵심 부분</strong></p>
 <p>하드웨어와 User program (or application) 사이에서 User program (or application) 수행에 필요한 여러 서비스를 제공하기 위한 <strong>인터페이스를 제공</strong></p>
 <p><strong>컴퓨터 H/W (CPU, Memory)의 resource(자원)들을 관리</strong></p>
-<h1 id="hw-resource-interface">컴퓨터 H/W resource에 대한 interface 제공.</h1>
+<h2 id="hw-resource-interface">컴퓨터 H/W resource에 대한 interface 제공.</h2>
 <p>Kernel은 User program과 H/W resource 사이에서 이들을 연결해주는 역할을 수행함.</p>
 <p>User program은 system call을 통해 kernel에 필요한 H/W resource의 사용을 요청하며, Kernel은 이를 받아 해당 H/W resource에게 해당하는 명령을 전달하여 작업을 수행하고, 그 결과를 user program에 반환해줌.</p>
 <blockquote>
 <p>User program은 Kernel이 제공하는 system call interface을 통해 computer의 physical resource를 사용하게 됨.</p>
 </blockquote>
-<h1 id="hw-resource-management">H/W Resource Management</h1>
+<h2 id="hw-resource-management">H/W Resource Management</h2>
 <p>Kernel은 컴퓨터 HW의 physical resource를 관리하며, 이들의 abstraction(or virtualization)인 virtual resource를 생성 및 관리함.</p>
 <p>virtual resource는 physical resource를 abstraction(추상화)한 것으로 각각의 User program들에서는 해당 virtual resource가 보이며, 이를 통해 user program들은 현재 자신이 특정 HW를 혼자서 쓰는 것처럼 느끼게 됨.</p>
 <table>
@@ -347,7 +431,7 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-<h1 id="os">OS에서의 역할.</h1>
+<h2 id="os">OS에서의 역할.</h2>
 <ul>
 <li>OS는 kernel에 system program (shell 및 여러 s/w)들이 더해져서 구성된다.</li>
 <li>추가되는 system program들은 file system utility, windowing systems 등등으로 User 또는 User program들이 컴퓨터를 보다 편리하게 사용할 수 있도록 해줌.</li>
