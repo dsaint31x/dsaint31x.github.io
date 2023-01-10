@@ -9,6 +9,9 @@ nav:
   - index: index.md
   - samples:
     - sample Page A: sample-a.md
+  - Git:
+    - 'Git/git_setting_ssh.md'
+    - 'Git/git_init.md'
 
 theme: 
   #name: 'readthedocs'
