@@ -12,6 +12,8 @@ nav:
   - Git:
     - 'Git/git_setting_ssh.md'
     - 'Git/git_init.md'
+  - Python:
+    - 'Python/ch00/ch00_06_module_package_library.md'
 
 theme: 
   #name: 'readthedocs'
