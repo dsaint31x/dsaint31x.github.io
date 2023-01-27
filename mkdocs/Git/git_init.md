@@ -1,5 +1,30 @@
 # Git 설치 후 해줄 작업 정리.
 
+## 사용자 설정.
+
+사용자의 이름과 email을 설정.
+
+```
+git config --global user.email "you@example.com"
+git config --global user.name "내 이름"
+```
+* `--global`은 전역으로 설정하는 것임.
+* repository마다 다르게 설정해야 하는 경우 `--local`을 대신 사용.
+
+만약 이미 설정된 `user.name`, `user.email`이 있는 경우는 기존 내용을 지우고 설정할 것.
+
+### 기존 사용자 설정 제거
+```
+# global
+git config --unset --global user.name
+git config --unset --global user.email
+
+# local
+git config --unset user.name
+git config --unset user.email
+```
+
+
 ## 개행문자 설정.
 
 `core.autocrlf`  : git에서 파일을 git repository 에 업로드할 때 개행문자(new line)를 처리하는 option.
