@@ -56,6 +56,8 @@ $ git config --global core.autocrlf input
 
 다양한 editor 중에서도 linux를 위해서 vim은 다룰 줄 아는게 중요함.
 
+* nano를 사용할 수도 있으나, vim을 배우길 권함.
+
 git config --global core.editor 명령으로 어떤 editor를 사용할지 선택 가능함.
 
 ```
