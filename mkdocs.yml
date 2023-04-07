@@ -5,6 +5,11 @@ site_url: https://dsaint31x.github.io/
 docs_dir: mkdocs
 site_dir: docs
 
+plugins:
+  - mkdocs-simple-hooks:
+      hooks:
+        hook-name: mkdocs.hooks:copy_ads
+
 nav:
   - index: index.md
   - samples:

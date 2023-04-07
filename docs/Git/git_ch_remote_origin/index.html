@@ -8,25 +8,21 @@
       
       
       
-        <link rel="canonical" href="https://dsaint31x.github.io/sample-a/">
+        <link rel="canonical" href="https://dsaint31x.github.io/Git/git_ch_remote_origin/">
       
       
-        <link rel="prev" href="..">
       
-      
-        <link rel="next" href="../Git/git_setting_ssh/">
-      
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.5">
     
     
 <title>Custom title goes here</title>
 
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.7a7fce14.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7a7fce14.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
       
       
 
@@ -42,7 +38,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -70,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#heading-a" class="md-skip">
+        <a href="#how-to-change-remote-origin" class="md-skip">
           Skip to content
         </a>
       
@@ -86,7 +82,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href="../.." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -105,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              sample Page A
+              How to change remote origin
             
           </span>
         </div>
@@ -139,7 +135,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href="../.." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -158,7 +154,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         index
       </a>
     </li>
@@ -171,16 +167,14 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
       
       
       
@@ -189,7 +183,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           samples
@@ -200,66 +194,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          sample Page A
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../sample-a/" class="md-nav__link">
         sample Page A
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#sub-heading-1" class="md-nav__link">
-    Sub-Heading 1
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sub-heading-2" class="md-nav__link">
-    Sub-Heading 2
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sub-heading-3" class="md-nav__link">
-    Sub-Heading 3
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -306,7 +245,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Git/git_setting_ssh/" class="md-nav__link">
+      <a href="../git_setting_ssh/" class="md-nav__link">
         SSH Key and Github Repository
       </a>
     </li>
@@ -320,7 +259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Git/git_init/" class="md-nav__link">
+      <a href="../git_init/" class="md-nav__link">
         Git 설치 후 해줄 작업 정리.
       </a>
     </li>
@@ -369,7 +308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Python/ch00/c00_06_module_package_library/" class="md-nav__link">
+      <a href="../../Python/ch00/c00_06_module_package_library/" class="md-nav__link">
         Module, Package and Library
       </a>
     </li>
@@ -410,22 +349,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#sub-heading-1" class="md-nav__link">
-    Sub-Heading 1
+  <a href="#remote-repository" class="md-nav__link">
+    remote repository 추가하기
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sub-heading-2" class="md-nav__link">
-    Sub-Heading 2
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sub-heading-3" class="md-nav__link">
-    Sub-Heading 3
+  <a href="#remote-repository_1" class="md-nav__link">
+    Remote Repository
   </a>
   
 </li>
@@ -445,27 +377,32 @@
                   
 
 
-<h1 id="heading-a">Heading A</h1>
-<h2 id="sub-heading-1">Sub-Heading 1</h2>
-<p>!!! info "Information"
-    This is an informational message.</p>
-<p>=== "Tab A"
-    Hello World!</p>
-<p>=== "Tab B"
-    Blub</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fringilla volutpat odio, nec iaculis tortor laoreet vitae. Suspendisse dictum nibh nulla, non fringilla sapien mollis sed. Nunc vehicula facilisis tellus, ut tempor massa bibendum sed. Aenean non justo eu nulla luctus aliquam. Nullam eget arcu a urna ultrices volutpat lobortis ut sapien. Fusce vitae dapibus tellus, nec tincidunt metus. Etiam scelerisque orci ac ligula fermentum rhoncus. Ut at nisi quis tellus imperdiet porta. In semper mollis urna, nec ultricies purus bibendum non.</p>
-<h2 id="sub-heading-2">Sub-Heading 2</h2>
-<p>!!! note "This is a note"
-    Some describing description text.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fringilla volutpat odio, nec iaculis tortor laoreet vitae.</p>
-<p>Etiam et sollicitudin dui, at tempor nulla. Suspendisse vitae scelerisque metus. Curabitur efficitur elementum felis id molestie. Proin auctor nulla nec tellus rhoncus, a rhoncus quam volutpat. Integer faucibus nisl et augue tincidunt convallis. Sed aliquet justo vel risus tempus, fringilla ultrices tortor fringilla. Nullam enim metus, commodo eu mi consequat, tincidunt varius nisi. Vestibulum aliquam ipsum ex, vel dignissim nulla sodales vel. In quis iaculis magna, sit amet imperdiet nisl.</p>
-<h2 id="sub-heading-3">Sub-Heading 3</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fringilla volutpat odio, nec iaculis tortor laoreet vitae. Suspendisse dictum nibh nulla, non fringilla sapien mollis sed. Nunc vehicula facilisis tellus, ut tempor massa bibendum sed. Aenean non justo eu nulla luctus aliquam. Nullam eget arcu a urna ultrices volutpat lobortis ut sapien. Fusce vitae dapibus tellus, nec tincidunt metus. Etiam scelerisque orci ac ligula fermentum rhoncus. Ut at nisi quis tellus imperdiet porta. In semper mollis urna, nec ultricies purus bibendum non.</p>
-<p>!!! warning "This is a warning"
-    Some dangerous things might happen.</p>
-<pre><code>Better use a new paragraph!
+<h1 id="how-to-change-remote-origin">How to change remote origin</h1>
+<p>https 프로토콜 등으로 github의 repository를 clone한 경우, 이후 소스 수정을 반영시키려면 제대로 동작을 하지 않는다.</p>
+<ul>
+<li>2021년 이후로 github에서 ssh등을 이용한 push 등이 가능하지, id/passwd 로 수행할 수 있는 기능이 아예 막혔기 때문임.</li>
+</ul>
+<p>때문에, https 프로토콜로 clone한 경우, 다음을 통해 origin의 프로토콜을 ssh가 가능하도록 remote origin의 URL을 수정해야 함.</p>
+<ul>
+<li>ssh를 통해 접근하려면 URL이 <code>git@</code>으로 시작한다.</li>
+</ul>
+<pre><code class="language-Bash">git remote remove origin
+git remote add origin git@~github_remote_repository_url.
 </code></pre>
-<p>Vestibulum nec ultricies odio. Nam ipsum nunc, molestie vitae vehicula eget, fermentum at nulla. Vestibulum porta quam vitae urna tincidunt vehicula. Vivamus varius enim in bibendum maximus. Nam at dolor eget mauris laoreet commodo id eu est. Vestibulum faucibus placerat egestas. Nullam semper dui eget purus lacinia rhoncus. Vestibulum sollicitudin vitae ipsum eget auctor. Vivamus congue lorem gravida mi facilisis, ac gravida erat vulputate. Proin pharetra et nunc quis viverra. Proin dignissim consectetur metus nec eleifend. Nullam vitae ex vel lorem efficitur gravida.</p>
+<h2 id="remote-repository">remote repository 추가하기</h2>
+<p>앞서 살펴본 명령어는 기존의 remote repository 인 origin(이를 단축이름이라고 부름)을 삭제하고, 새로운 origin을 추가하는 명령어였다.</p>
+<p>즉, <code>git remote add &lt;단축이름&gt; &lt;URL&gt;</code> 명령어가 입력된 단축이름으로 URL에 해당하는 remote repository를 추가하는 것이다.</p>
+<p>이렇게 추가된 경우, remote repository의 URL 대신 단축이름을 통해 git의 명령어에서 remote repository를 지칭할 수 있게 된다.</p>
+<h2 id="remote-repository_1">Remote Repository</h2>
+<p>remote repository는 인터넷이나 네트워크 어딘가에 있는 저장소(repository)를 뜻하지만, 엄격하게 애기한다면, push, pull등을 통해 데이터를 올리고 받는 repository를 말한다.</p>
+<blockquote>
+<p>이는, local machine에 remote repository가 같이 있을 수도 있다는 뜻이다.</p>
+</blockquote>
+<p><code>git remote</code> 명령어를 수행하면, 현재 프로젝트에 등록된 remote repository의 단축이름을 확인할 수 있다. </p>
+<ul>
+<li>github에서 clone한 repository의 경우, 일반적으로 origin 이라는 이름의 remote repository를 확인할 수 있다.</li>
+</ul>
+<p><code>git remote -v</code> 명령어를 사용하면 단축이름과 함께 URL까지 확인 가능하다.</p>
 
 
 
@@ -503,10 +440,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.407015b8.min.js"></script>
+      <script src="../../assets/javascripts/bundle.407015b8.min.js"></script>
       
     
   </body>
