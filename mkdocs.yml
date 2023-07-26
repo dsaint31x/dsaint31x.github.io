@@ -6,9 +6,13 @@ docs_dir: mkdocs
 site_dir: docs
 
 plugins:
-  - mkdocs-simple-hooks:
-      hooks:
-        hook-name: mkdocs.hooks:copy_ads
+  - search
+    #- mkdocs-simple-hooks:
+    #    hooks:
+    #      on_pre_build: "mkdocs.hooks:copy_ads"
+
+hooks:
+  - hooks.py
 
 nav:
   - index: index.md
