@@ -10,6 +10,8 @@
 * Package는 여러 Moudle들로 구성된다.
 * Module은 여러 function과 variable, class들로 구성된다.
 
+---
+
 ## Library
 
 SW의 구성요소 중 하나로 SW에 특정 기능을 추가하기 위해 요구되는 실행가능한 기계어(or 바이트코드) 형태로 제공되는 ***모듈화된 프로그램들의 묶음*** 으로, 이를 사용하는 개발자들은 해당 Library의 API를 통해 SW에서 사용함.
@@ -23,11 +25,15 @@ SW의 구성요소 중 하나로 SW에 특정 기능을 추가하기 위해 요�
 > Framework와 Library는 약간 다른 의미를 가지지만, SW를 개발하기 위해 필요한 큰 부품들을 묶음이라는 의미에선 유사하다. 사실 엄밀한 구분 기준은 없으나 대부분이 인정하는 차이점은 있다. 보통 제공하는 기능들을 사용할 때, SW의 **제어흐름** 을 자유롭게 개발자가 정할 수 있는 경우 library라고 부르며, 이미 상당부분이 고정되어 있고 개발자는 해당 순서에 동작하는 함수 등에 기능을 추가하는 수정을 가하는 형태로 작업이 이루어지면 Framework라고 부른다. 좀더 자세한 부분 설명은 다음 URL을 참고하라.   
 > [Library vs. Framework](https://dsaint31.tistory.com/entry/Programming-Library-vs-Framework)
 
+---
+
 ## Package
 
 비슷한 기능이나 목적을 가지는 여러 module들을 묶어놓은 것이 바로 Package임. Python에서는 module 하나를 `.py` 파일로 볼 수 있고, 이들이 속해있는 directory를 패키지로 볼 수 있다. 이는 Pakcage 내에 sub-package를 가질 수 있으며, package들이 모여서 library (or framework)를 구성한다.
 
 sub-directory를 가지듯이 sub-package를 가질 수 있기 때문에, library를 package라고도 부를 수도 있다. 때문에 `NumPy`나 `Pandas` 등의 library를 package라고도 종종 부른다.
+
+---
 
 ## Module
 
@@ -48,8 +54,13 @@ file은 module로 directory는 package로 나누는게 가장 많이 받아들�
   
 
 ### 참고자료 (Learning Python 5th Edition, ch03 Module Import and Reload)
-> Python에서 module은 일종의 namespace 라고 언급하는 경우도 많다. 이 namespace(=module)은 일종의 "varaible, function, class등에 대한 name로 구성된 package(묶음)"을 가르키며, "attribute는 해당 묶음 내의 name (=variable, function, class들의 이름)들"을 가르키는 용어로 사용된다.  
+
+> Python에서 module은 일종의 namespace 라고 언급하는 경우도 많다.  
+> 이 namespace(=module)은 일종의 "varaible, function, class등에 대한 name로 구성된 package(묶음)"을 가르키며, "attribute는 해당 묶음 내의 name (=variable, function, class들의 이름)들"을 가르키는 용어로 사용된다.   
 > 예를 들면, 특정 `.py`파일 내의 function과 variable, class에 접근하려면, 해당 `.py`파일의 이름을 통해 접근하게 된다. 즉, 파일의 이름이 일종의 namespace라고 생각할 수 있고, 이 밑으로 다양한 function과 variable, class에 접근은 해당 namepace의 attribute 형태로 가능하다.
 
-* `from`의 경우, module내의 attribute를 현재의 module로 복사하기 때문에 namespace로 구분된 경계를 일부 무너뜨린다고 볼 수 있다. 때문에 엄격한 일부 프로그래머들은 `import`를 사용하는 것을 권장한다. 하지만... 적절히 `from`을 구사할 경우, 이름이 겹치는 문제는 일어나지 않고, 무엇보다도 개발자가 매번 namespace에 해당하는 module명을 입력하지 않게 해주는 편리성을 버리긴 어렵기 때문에 굳이 `import`만을 사용할 필요는 없을 거 같다.
-* `from`은 namespace가 붙은 attribute를 값으로 하여, namespace가 빠진 name에 할당하는 동작 (이를 줄여서 "복사"했다고 언급한다)이 이루어진다고 생각하면 된다. 
+* `from`의 경우, module내의 attribute를 현재의 module로 복사하기 때문에 namespace로 구분된 경계를 일부 무너뜨린다고 볼 수 있다. 때문에 엄격한 일부 프로그래머들은 `import`를 사용하는 것을 권장한다. 하지만...  
+적절히 `from`을 구사할 경우, 이름이 겹치는 문제는 일어나지 않고, 무엇보다도 개발자가 매번 namespace에 해당하는 module명을 입력하지 않게 해주는 편리성을 버리긴 어렵기 때문에 굳이 `import`만을 사용할 필요는 없을 거 같다.
+* `from`은 namespace가 붙은 attribute를 값으로 하여, namespace가 빠진 name에 할당하는 동작 (이를 줄여서 "복사"했다고 언급한다)이 이루어진다고 생각하면 된다.
+
+namespace에 대한 좀 더 자세한 설명은 다음 URL을 참고하라. [namespace, frame, and context](https://dsaint31.tistory.com/508) 
