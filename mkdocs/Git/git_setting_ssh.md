@@ -2,7 +2,8 @@
 
 
 ## SSH Private Key와 Public Key 확인 또는 생성.
-ssH 키가 있는지 확인.
+
+ssH 키가 있는지 확인하기.
 
 ```
 ls -al ~/.ssh
